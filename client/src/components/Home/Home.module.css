@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+}
+.navBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+}
+.divContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #151515;
+}
+.conatinerFilters{
+    margin: 20px;
+    top: 6em;
+    justify-content: space-around;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+
+.paginadoTop{
+    margin-top: 9%;
+    margin-bottom: 4%;
+}
+.cardsContainer{
+/*      display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around; 
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    margin-top: 0em;
+}
+
+.cards{
+    display:flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom:50px;
+}
+
+/* .paginadoBottom{
+    margin: bottom -250px;
+} */
+
+.paginadoTop , .paginadoBottom{
+    text-align: center;
+}
